@@ -1,0 +1,44 @@
+body
+{
+    font-family: arial;
+}
+
+
+header h3::after
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.5px;
+    background-color: rgb(170, 170, 170);
+    top: 170%;
+    left: -50px;
+    
+}
+
+#formContainer
+{
+    background-color: rgb(238, 238, 238);
+}
+
+#websiteContainer
+{
+    background-image: linear-gradient(rgb(238, 238, 238), rgb(255, 255, 255));
+        padding: 20px;
+}
+#websiteContainer h2
+{
+   
+    width: 30%;
+}
+
+footer p::after
+{
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: 0.5px;
+    background-color: rgb(170, 170, 170);
+    top: -30px;
+    left: 6%;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+
+    <header class="container my-5 pt-3 ">
+        <h3 class="text-muted fw-bold fs-3 position-relative">Bookmarker</h3>
+    </header>
+
+    <div class="container text-center p-5" id="formContainer">
+
+        <h2>Bookmark your favorite sites</h2>
+
+        <form class="mt-4">
+            <div>
+                <p class="fw-bold">Site Name</p>
+                <input type="text" placeholder="Bookmark Name" id="websiteNameInput"
+                    class="form-control mx-auto w-75  ">
+                <div class="alert alert-danger w-75 mx-auto d-none" id="alert">enter websitename</div>
+            </div>
+
+            <div class="my-3">
+                <p class="fw-bold">Site URl</p>
+                <input type="text" placeholder="website URL" id="websiteURLInput" class="form-control mx-auto w-75">
+            </div>
+
+            <button type="button" class="btn btn-primary" id="submit">Submit</button>
+            <button type="button" class="btn btn-primary d-none mx-auto" id="edit">Edit</button>
+        </form>
+
+        <input type="" placeholder="Search.." class="form-control w-75 mx-auto mt-4" id="websiteSearchInput">
+    </div>
+
+    <div id="websiteContainerBox">
+
+    </div>
+
+    <footer class="position-relative">
+        <div class="container mt-4">
+            <p class="text-muted">&copy; 2019 Bookmarker Inc.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
